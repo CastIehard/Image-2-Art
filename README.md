@@ -2,6 +2,8 @@
 
 This repository contains a Python script that converts images into abstract art by manipulating their color profiles.
 
+![Example Image](example.jpg)
+
 ## Features
 
 - Image processing to convert standard images into abstract art.
@@ -40,12 +42,6 @@ Users can interact with the program through the command line, making selections 
 When viewing the abstract image, users can click on any pixel to change its color. This feature utilizes the `mouse_event` function, which is triggered by mouse clicks on the image display:
 - The script captures the coordinates of the click, identifies the color at that pixel, and replaces it with a randomly selected new color from the available set not currently used in the image.
 - This allows real-time modifications and lets users experiment with different color schemes directly.
-
-## Example
-
-An example image called `example.jpg` is included in the repository to demonstrate the initial input for the art transformation. Below is how this example image looks:
-
-![Example Image](example.jpg)
 
 ## License
 
